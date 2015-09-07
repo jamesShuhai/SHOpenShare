@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OpenShareHeader.h"
 
 @interface ViewController ()
 
