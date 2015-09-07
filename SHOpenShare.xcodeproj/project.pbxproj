@@ -14,6 +14,12 @@
 		3789ADAA1B9C1B1900AE50BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3789ADA91B9C1B1900AE50BD /* Images.xcassets */; };
 		3789ADAD1B9C1B1900AE50BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3789ADAB1B9C1B1900AE50BD /* LaunchScreen.xib */; };
 		3789ADB91B9C1B1900AE50BD /* SHOpenShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADB81B9C1B1900AE50BD /* SHOpenShareTests.m */; };
+		3789ADD01B9C279D00AE50BD /* OpenShare+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADC41B9C279D00AE50BD /* OpenShare+Alipay.m */; };
+		3789ADD11B9C279D00AE50BD /* OpenShare+QQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADC61B9C279D00AE50BD /* OpenShare+QQ.m */; };
+		3789ADD21B9C279D00AE50BD /* OpenShare+Renren.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADC81B9C279D00AE50BD /* OpenShare+Renren.m */; };
+		3789ADD31B9C279D00AE50BD /* OpenShare+Weibo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADCA1B9C279D00AE50BD /* OpenShare+Weibo.m */; };
+		3789ADD41B9C279D00AE50BD /* OpenShare+Weixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADCC1B9C279D00AE50BD /* OpenShare+Weixin.m */; };
+		3789ADD51B9C279D00AE50BD /* OpenShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789ADCE1B9C279D00AE50BD /* OpenShare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,19 @@
 		3789ADB21B9C1B1900AE50BD /* SHOpenShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHOpenShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3789ADB71B9C1B1900AE50BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3789ADB81B9C1B1900AE50BD /* SHOpenShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHOpenShareTests.m; sourceTree = "<group>"; };
+		3789ADC31B9C279D00AE50BD /* OpenShare+Alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Alipay.h"; sourceTree = "<group>"; };
+		3789ADC41B9C279D00AE50BD /* OpenShare+Alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Alipay.m"; sourceTree = "<group>"; };
+		3789ADC51B9C279D00AE50BD /* OpenShare+QQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+QQ.h"; sourceTree = "<group>"; };
+		3789ADC61B9C279D00AE50BD /* OpenShare+QQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+QQ.m"; sourceTree = "<group>"; };
+		3789ADC71B9C279D00AE50BD /* OpenShare+Renren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Renren.h"; sourceTree = "<group>"; };
+		3789ADC81B9C279D00AE50BD /* OpenShare+Renren.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Renren.m"; sourceTree = "<group>"; };
+		3789ADC91B9C279D00AE50BD /* OpenShare+Weibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weibo.h"; sourceTree = "<group>"; };
+		3789ADCA1B9C279D00AE50BD /* OpenShare+Weibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weibo.m"; sourceTree = "<group>"; };
+		3789ADCB1B9C279D00AE50BD /* OpenShare+Weixin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OpenShare+Weixin.h"; sourceTree = "<group>"; };
+		3789ADCC1B9C279D00AE50BD /* OpenShare+Weixin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OpenShare+Weixin.m"; sourceTree = "<group>"; };
+		3789ADCD1B9C279D00AE50BD /* OpenShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShare.h; sourceTree = "<group>"; };
+		3789ADCE1B9C279D00AE50BD /* OpenShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenShare.m; sourceTree = "<group>"; };
+		3789ADCF1B9C279D00AE50BD /* OpenShareHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenShareHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		3789AD9B1B9C1B1900AE50BD /* SHOpenShare */ = {
 			isa = PBXGroup;
 			children = (
+				3789ADC21B9C279D00AE50BD /* openshare */,
 				3789ADA01B9C1B1900AE50BD /* AppDelegate.h */,
 				3789ADA11B9C1B1900AE50BD /* AppDelegate.m */,
 				3789ADA31B9C1B1900AE50BD /* ViewController.h */,
@@ -117,6 +137,26 @@
 				3789ADB71B9C1B1900AE50BD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3789ADC21B9C279D00AE50BD /* openshare */ = {
+			isa = PBXGroup;
+			children = (
+				3789ADC31B9C279D00AE50BD /* OpenShare+Alipay.h */,
+				3789ADC41B9C279D00AE50BD /* OpenShare+Alipay.m */,
+				3789ADC51B9C279D00AE50BD /* OpenShare+QQ.h */,
+				3789ADC61B9C279D00AE50BD /* OpenShare+QQ.m */,
+				3789ADC71B9C279D00AE50BD /* OpenShare+Renren.h */,
+				3789ADC81B9C279D00AE50BD /* OpenShare+Renren.m */,
+				3789ADC91B9C279D00AE50BD /* OpenShare+Weibo.h */,
+				3789ADCA1B9C279D00AE50BD /* OpenShare+Weibo.m */,
+				3789ADCB1B9C279D00AE50BD /* OpenShare+Weixin.h */,
+				3789ADCC1B9C279D00AE50BD /* OpenShare+Weixin.m */,
+				3789ADCD1B9C279D00AE50BD /* OpenShare.h */,
+				3789ADCE1B9C279D00AE50BD /* OpenShare.m */,
+				3789ADCF1B9C279D00AE50BD /* OpenShareHeader.h */,
+			);
+			path = openshare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +260,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3789ADA51B9C1B1900AE50BD /* ViewController.m in Sources */,
+				3789ADD41B9C279D00AE50BD /* OpenShare+Weixin.m in Sources */,
+				3789ADD31B9C279D00AE50BD /* OpenShare+Weibo.m in Sources */,
+				3789ADD11B9C279D00AE50BD /* OpenShare+QQ.m in Sources */,
+				3789ADD51B9C279D00AE50BD /* OpenShare.m in Sources */,
+				3789ADD01B9C279D00AE50BD /* OpenShare+Alipay.m in Sources */,
 				3789ADA21B9C1B1900AE50BD /* AppDelegate.m in Sources */,
 				3789AD9F1B9C1B1900AE50BD /* main.m in Sources */,
+				3789ADD21B9C279D00AE50BD /* OpenShare+Renren.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

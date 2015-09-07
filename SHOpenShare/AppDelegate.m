@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OpenShareHeader.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [OpenShare connectQQWithAppId:@"1104771141"];
+    [OpenShare connectWeiboWithAppKey:@""];
+    [OpenShare connectWeixinWithAppId:@""];
+    [OpenShare connectAlipay];
+    
     return YES;
 }
 
