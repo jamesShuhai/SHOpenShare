@@ -20,8 +20,12 @@
     // Override point for customization after application launch.
     
     [OpenShare connectQQWithAppId:@"1104771141"];
+    
+//    在微博开放平台申请的appkey
     [OpenShare connectWeiboWithAppKey:@""];
     [OpenShare connectWeixinWithAppId:@""];
+    
+//    调用支付宝接口不用填写其他参数
     [OpenShare connectAlipay];
     
     return YES;
